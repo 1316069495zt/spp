@@ -34,6 +34,7 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-freemarker:1.5.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.25-incubating" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.16" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.5.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />

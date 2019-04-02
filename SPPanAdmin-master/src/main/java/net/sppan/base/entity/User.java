@@ -1,22 +1,10 @@
 package net.sppan.base.entity;
 
-import java.util.Date;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
-
 import com.alibaba.fastjson.annotation.JSONField;
-
 import net.sppan.base.entity.support.BaseEntity;
+
+import javax.persistence.*;
+import java.util.Date;
 
 /**
  * <p>
@@ -97,6 +85,19 @@ public class User extends BaseEntity {
 	 * 用户描述
 	 */
 	private String description;
+
+	/**
+	 * 企业id
+	 */
+	private String companyId;
+
+	public String getCompanyId() {
+		return companyId;
+	}
+
+	public void setCompanyId(String companyId) {
+		this.companyId = companyId;
+	}
 
 	/**
 	 * 创建时间
