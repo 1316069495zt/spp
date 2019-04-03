@@ -13,6 +13,9 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author zt
+ */
 @Service
 public class CompanyService extends BaseServiceImpl<Company,String> {
     @Autowired
@@ -54,6 +57,7 @@ public class CompanyService extends BaseServiceImpl<Company,String> {
         temp.setCompanyPhone(company.getCompanyPhone());
         temp.setAuditState(company.getAuditState());
         temp.setLicense( EncryUtil.encrypt(company.getLicense()));
+        temp.setQrCode(company.getQrCode());
         companyDao.save(temp);
         return temp;
     }

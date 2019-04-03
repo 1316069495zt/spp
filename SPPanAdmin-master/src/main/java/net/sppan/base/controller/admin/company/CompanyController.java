@@ -62,4 +62,5 @@ public class CompanyController extends BaseController {
         List<Company> list = companyService.findAll();
         return JsonResult.success(list);
     }
+
 }

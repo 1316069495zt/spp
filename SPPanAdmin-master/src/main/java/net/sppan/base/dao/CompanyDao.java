@@ -9,4 +9,6 @@ import net.sppan.base.entity.Company;
  * @author zt
  */
 public interface CompanyDao extends IBaseDao<Company, String> {
+
+
 }
